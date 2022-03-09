@@ -1,0 +1,23 @@
+{
+  "name": "Neeva Colors",
+  "description": "Adds additional color schemes to the Neeva search engine (neeva.com)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://neeva.com/settings"],
+      "js": ["insertSetting.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "scripting", "webNavigation"],
+  "host_permissions": ["https://neeva.com/*"],
+  "icons": {
+    "16": "/images/neeva-16.png",
+    "32": "/images/neeva-32.png",
+    "48": "/images/neeva-48.png",
+    "128": "/images/neeva-128.png"
+  }
+}

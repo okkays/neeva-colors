@@ -1,0 +1,258 @@
+[data-theme="dark"]
+  .signin-index__content-1usn9
+  .signin-index__retryMessage-3mIKf {
+  color: var(--neeva-colors-ext-light-purple) !important;
+  background-color: var(--neeva-colors-ext-dark-red) !important;
+}
+
+[data-theme="dark"]
+  .signin-index__content-1usn9
+  .signin-index__retryMessage-3mIKf
+  a,
+[data-theme="dark"]
+  .signin-index__content-1usn9
+  .signin-index__retryMessage-3mIKf
+  a:visited {
+  color: var(--neeva-colors-ext-light-purple) !important;
+}
+
+[data-theme="light"]
+  .button-base-button__baseButton-182XL.button-base-button__tertiary-3Or9a {
+  --focus-glow-color: rgba(var(--neeva-colors-ext-fg0), 40) !important;
+}
+
+[data-theme="dark"]
+  .button-base-button__baseButton-182XL.button-base-button__tertiary-3Or9a {
+  --focus-glow-color: rgba(var(--neeva-colors-ext-fg0), 40) !important;
+}
+
+[data-theme="light"] {
+  --token-color-overlay-weak: var(--neeva-colors-ext-bg0-soft) !important;
+  --token-color-overlay-strong: var(--neeva-colors-ext-bg0-hard) !important;
+  --token-color-surface: var(--neeva-colors-ext-bg0) !important;
+}
+
+[data-theme="dark"] {
+  --token-color-overlay-weak: var(--neeva-colors-ext-bg0-soft) !important;
+  --token-color-overlay-strong: var(--neeva-colors-ext-bg0-hard) !important;
+  --token-color-surface: var(--neeva-colors-ext-bg0) !important;
+}
+
+:root,
+[data-theme="light"] {
+  --color-semantic-overlay-weak: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-overlay-strong: var(--neeva-colors-ext-bg0-hard) !important;
+  --color-semantic-overlay-stronger: var(
+    --neeva-colors-ext-bg0-soft
+  ) !important;
+  --color-semantic-overlay-blue: var(--neeva-colors-ext-dark-blue) !important;
+  --color-semantic-overlay-light-blue: rgba(
+    var(--neeva-colors-ext-light-blue),
+    80
+  );
+  --color-semantic-card: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-surface: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-surface-transparent: !important;
+  --color-semantic-surface-promo: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-surface-skeleton: var(
+    --neeva-colors-ext-bg0-hard
+  ) !important;
+  --color-semantic-surface-map: var(--neeva-colors-ext-bg0-soft) !important;
+  --color-semantic-surface-topcard: var(--neeva-colors-ext-bg1) !important;
+  --color-semantic-surface-hero: var(--neeva-colors-ext-bg2) !important;
+  --color-semantic-surface-popup-menu: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-base: var(--neeva-colors-ext-bg0-hard) !important;
+  --color-semantic-overflow: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-text: var(--neeva-colors-ext-fg0) !important;
+  --color-semantic-subtext: var(--neeva-colors-ext-fg2) !important;
+  --color-semantic-button-text: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-button-disabled: rgba(
+    var(--neeva-colors-ext-fg1),
+    66
+  ) !important;
+  --color-semantic-button-text-disabled: rgba(
+    var(--neeva-colors-ext-fg0),
+    6b
+  ) !important;
+  --color-semantic-button-secondary: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-border-weak: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-border-strong: var(--neeva-colors-ext-bg0-hard) !important;
+  --color-semantic-border-blue: var(--neeva-colors-ext-light-blue) !important;
+  --color-semantic-shadow-weak: rgba(0, 0, 0, 0.02) !important;
+  --color-semantic-shadow-strong: rgba(0, 0, 0, 0.05) !important;
+  --color-semantic-shadow-very-strong: rgba(0, 0, 0, 0.15) !important;
+  --color-semantic-modal-background: rgba(
+    var(--neeva-colors-ext-fg0),
+    0.4
+  ) !important;
+  --color-ui-green: var(--neeva-colors-ext-dark-green) !important;
+  --color-ui-aqua: var(--neeva-colors-ext-dark-aqua) !important;
+  --color-ui-aqua-light: var(--neeva-colors-ext-light-aqua) !important;
+  --color-ui-blue: var(--neeva-colors-ext-dark-blue) !important;
+  --color-ui-blue-active: var(--neeva-colors-ext-dark-blue) !important;
+  --color-ui-blue-serp: var(--neeva-colors-ext-dark-blue) !important;
+  --color-ui-gray-20: var(--neeva-colors-ext-fg0) !important;
+  --color-ui-gray-30: var(--neeva-colors-ext-fg1) !important;
+  --color-ui-gray-40: var(--neeva-colors-ext-fg2) !important;
+  --color-ui-gray-50: var(--neeva-colors-ext-fg3) !important;
+  --color-ui-gray-60: var(--neeva-colors-ext-fg4) !important;
+  --color-ui-gray-70: var(--neeva-colors-ext-bg4) !important;
+  --color-ui-gray-80: var(--neeva-colors-ext-bg3) !important;
+  --color-ui-gray-91: var(--neeva-colors-ext-bg2) !important;
+  --color-ui-gray-94: var(--neeva-colors-ext-bg1) !important;
+  --color-ui-gray-96: var(--neeva-colors-ext-bg0-soft) !important;
+  --color-ui-gray-97: var(--neeva-colors-ext-bg0-hard) !important;
+  --color-ui-gray-96-transparent: rgba(
+    var(--neeva-colors-ext-bg0-hard),
+    0
+  ) !important;
+  --color-ui-gray-98: var(--neeva-colors-ext-bg0) !important;
+  --color-ui-gray-99: var(--neeva-colors-ext-bg0) !important;
+  --color-brand-blue: var(--neeva-colors-ext-light-blue) !important;
+  --color-brand-blue-variant: var(--neeva-colors-ext-dark-blue) !important;
+  --color-brand-seafoam: var(--neeva-colors-ext-light-blue) !important;
+  --color-brand-seafoam-variant: var(--neeva-colors-ext-dark-blue) !important;
+  --color-brand-polar: var(--neeva-colors-ext-light-blue) !important;
+  --color-brand-polar-variant: var(--neeva-colors-ext-dark-blue) !important;
+  --color-brand-pistachio: var(--neeva-colors-ext-light-aqua) !important;
+  --color-brand-pistachio-variant: var(
+    --neeva-colors-ext-light-aqua
+  ) !important;
+  --color-brand-off-white: var(--neeva-colors-ext-light-gray) !important;
+  --color-brand-off-white-variant: var(--neeva-colors-ext-dark-gray) !important;
+  --color-brand-orange: var(--neeva-colors-ext-light-orange) !important;
+  --color-brand-orange-variant: var(--neeva-colors-ext-dark-orange) !important;
+  --color-brand-peach: var(--neeva-colors-ext-light-orange) !important;
+  --color-brand-peach-variant: var(--neeva-colors-ext-dark-orange) !important;
+  --color-brand-yellow: var(--neeva-colors-ext-light-yellow) !important;
+  --color-brand-yellow-variant: var(--neeva-colors-ext-dark-yellow) !important;
+  --color-brand-pink: var(--neeva-colors-ext-light-purple) !important;
+  --color-brand-pink-variant: var(--neeva-colors-ext-dark-purple) !important;
+  --color-brand-mint: var(--neeva-colors-ext-light-aqua) !important;
+  --color-brand-mint-variant: var(--neeva-colors-ext-dark-aqua) !important;
+  --color-brand-green: var(--neeva-colors-ext-light-green) !important;
+  --color-brand-green-variant: var(--neeva-colors-ext-dark-green) !important;
+  --color-brand-maya: var(--neeva-colors-ext-light-blue) !important;
+  --color-brand-maya-variant: var(--neeva-colors-ext-dark-blue) !important;
+  --color-brand-gold: var(--neeva-colors-ext-light-yellow) !important;
+  --color-brand-gold-variant: var(--neeva-colors-ext-dark-yellow) !important;
+  --color-brand-red: var(--neeva-colors-ext-light-red) !important;
+  --color-brand-red-variant: var(--neeva-colors-ext-dark-red) !important;
+  --color-brand-charcoal: var(--neeva-colors-ext-fg1) !important;
+  --color-brand-white: var(--neeva-colors-ext-bg0) !important;
+  --color-brand-black: var(--neeva-colors-ext-fg0) !important;
+  --color-brand-purple: var(--neeva-colors-ext-light-purple) !important;
+  --color-brand-purple-variant: var(--neeva-colors-ext-dark-purple) !important;
+  --color-brand-beige: var(--neeva-colors-ext-bg0) !important;
+  --color-brand-background-gray: var(--neeva-colors-ext-bg1) !important;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --color-semantic-overlay-weak: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-overlay-strong: var(--neeva-colors-ext-bg0-hard) !important;
+  --color-semantic-overlay-stronger: var(
+    --neeva-colors-ext-bg0-soft
+  ) !important;
+  --color-semantic-overlay-blue: var(--neeva-colors-ext-dark-blue) !important;
+  --color-semantic-overlay-light-blue: rgba(
+    var(--neeva-colors-ext-light-blue),
+    80
+  );
+  --color-semantic-card: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-surface: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-surface-transparent: !important;
+  --color-semantic-surface-promo: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-surface-skeleton: var(
+    --neeva-colors-ext-bg0-hard
+  ) !important;
+  --color-semantic-surface-map: var(--neeva-colors-ext-bg0-soft) !important;
+  --color-semantic-surface-topcard: var(--neeva-colors-ext-bg1) !important;
+  --color-semantic-surface-hero: var(--neeva-colors-ext-bg2) !important;
+  --color-semantic-surface-popup-menu: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-base: var(--neeva-colors-ext-bg0-hard) !important;
+  --color-semantic-overflow: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-text: var(--neeva-colors-ext-fg0) !important;
+  --color-semantic-subtext: var(--neeva-colors-ext-fg2) !important;
+  --color-semantic-button-text: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-button-disabled: rgba(
+    var(--neeva-colors-ext-fg1),
+    66
+  ) !important;
+  --color-semantic-button-text-disabled: rgba(
+    var(--neeva-colors-ext-fg0),
+    6b
+  ) !important;
+  --color-semantic-button-secondary: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-border-weak: var(--neeva-colors-ext-bg0) !important;
+  --color-semantic-border-strong: var(--neeva-colors-ext-bg0-hard) !important;
+  --color-semantic-border-blue: var(--neeva-colors-ext-light-blue) !important;
+  --color-semantic-shadow-weak: rgba(0, 0, 0, 0.02) !important;
+  --color-semantic-shadow-strong: rgba(0, 0, 0, 0.05) !important;
+  --color-semantic-shadow-very-strong: rgba(0, 0, 0, 0.15) !important;
+  --color-semantic-modal-background: rgba(
+    var(--neeva-colors-ext-fg0),
+    0.4
+  ) !important;
+  --color-ui-green: var(--neeva-colors-ext-dark-green) !important;
+  --color-ui-aqua: var(--neeva-colors-ext-dark-aqua) !important;
+  --color-ui-aqua-light: var(--neeva-colors-ext-light-aqua) !important;
+  --color-ui-blue: var(--neeva-colors-ext-dark-blue) !important;
+  --color-ui-blue-active: var(--neeva-colors-ext-dark-blue) !important;
+  --color-ui-blue-serp: var(--neeva-colors-ext-dark-blue) !important;
+  --color-ui-gray-20: var(--neeva-colors-ext-fg0) !important;
+  --color-ui-gray-30: var(--neeva-colors-ext-fg1) !important;
+  --color-ui-gray-40: var(--neeva-colors-ext-fg2) !important;
+  --color-ui-gray-50: var(--neeva-colors-ext-fg3) !important;
+  --color-ui-gray-60: var(--neeva-colors-ext-fg4) !important;
+  --color-ui-gray-70: var(--neeva-colors-ext-bg4) !important;
+  --color-ui-gray-80: var(--neeva-colors-ext-bg3) !important;
+  --color-ui-gray-91: var(--neeva-colors-ext-bg2) !important;
+  --color-ui-gray-94: var(--neeva-colors-ext-bg1) !important;
+  --color-ui-gray-96: var(--neeva-colors-ext-bg0-soft) !important;
+  --color-ui-gray-97: var(--neeva-colors-ext-bg0-hard) !important;
+  --color-ui-gray-96-transparent: rgba(
+    var(--neeva-colors-ext-bg0-hard),
+    0
+  ) !important;
+  --color-ui-gray-98: var(--neeva-colors-ext-bg0) !important;
+  --color-ui-gray-99: var(--neeva-colors-ext-bg0) !important;
+  --color-brand-blue: var(--neeva-colors-ext-light-blue) !important;
+  --color-brand-blue-variant: var(--neeva-colors-ext-dark-blue) !important;
+  --color-brand-seafoam: var(--neeva-colors-ext-light-blue) !important;
+  --color-brand-seafoam-variant: var(--neeva-colors-ext-dark-blue) !important;
+  --color-brand-polar: var(--neeva-colors-ext-light-blue) !important;
+  --color-brand-polar-variant: var(--neeva-colors-ext-dark-blue) !important;
+  --color-brand-pistachio: var(--neeva-colors-ext-light-aqua) !important;
+  --color-brand-pistachio-variant: var(
+    --neeva-colors-ext-light-aqua
+  ) !important;
+  --color-brand-off-white: var(--neeva-colors-ext-light-gray) !important;
+  --color-brand-off-white-variant: var(--neeva-colors-ext-dark-gray) !important;
+  --color-brand-orange: var(--neeva-colors-ext-light-orange) !important;
+  --color-brand-orange-variant: var(--neeva-colors-ext-dark-orange) !important;
+  --color-brand-peach: var(--neeva-colors-ext-light-orange) !important;
+  --color-brand-peach-variant: var(--neeva-colors-ext-dark-orange) !important;
+  --color-brand-yellow: var(--neeva-colors-ext-light-yellow) !important;
+  --color-brand-yellow-variant: var(--neeva-colors-ext-dark-yellow) !important;
+  --color-brand-pink: var(--neeva-colors-ext-light-purple) !important;
+  --color-brand-pink-variant: var(--neeva-colors-ext-dark-purple) !important;
+  --color-brand-mint: var(--neeva-colors-ext-light-aqua) !important;
+  --color-brand-mint-variant: var(--neeva-colors-ext-dark-aqua) !important;
+  --color-brand-green: var(--neeva-colors-ext-light-green) !important;
+  --color-brand-green-variant: var(--neeva-colors-ext-dark-green) !important;
+  --color-brand-maya: var(--neeva-colors-ext-light-blue) !important;
+  --color-brand-maya-variant: var(--neeva-colors-ext-dark-blue) !important;
+  --color-brand-gold: var(--neeva-colors-ext-light-yellow) !important;
+  --color-brand-gold-variant: var(--neeva-colors-ext-dark-yellow) !important;
+  --color-brand-red: var(--neeva-colors-ext-light-red) !important;
+  --color-brand-red-variant: var(--neeva-colors-ext-dark-red) !important;
+  --color-brand-charcoal: var(--neeva-colors-ext-fg1) !important;
+  --color-brand-white: var(--neeva-colors-ext-bg0) !important;
+  --color-brand-black: var(--neeva-colors-ext-fg0) !important;
+  --color-brand-purple: var(--neeva-colors-ext-light-purple) !important;
+  --color-brand-purple-variant: var(--neeva-colors-ext-dark-purple) !important;
+  --color-brand-beige: var(--neeva-colors-ext-bg0) !important;
+  --color-brand-background-gray: var(--neeva-colors-ext-bg1) !important;
+  color-scheme: dark;
+}
