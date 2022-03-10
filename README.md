@@ -21,5 +21,6 @@ Currently only has gruvbox as an option - pull requests welcome!
 ## Adding schemes
 
 1. Make a copy of themes/gruvbox.css
-2. Add your theme title and key (the 'gruvbox' part of 'gruvbox.css') to SCHEME_TITLES in insertSetting.js
-3. Make a pull request
+2. Replace the copy's colors with your light/dark colors.
+3. Add your theme title and key (the 'gruvbox' part of 'gruvbox.css') to SCHEME_TITLES in insertSetting.js
+4. Make a pull request
