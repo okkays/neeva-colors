@@ -12,11 +12,11 @@ Currently only has gruvbox as an option - pull requests welcome!
 
 ### Default
 
-![Default](images/demo_default.png)
+![Default](images/demo-default.png)
 
 ### Gruvbox
 
-![Gruvbox](images/demo_gruvbox.png)
+![Gruvbox](images/demo-gruvbox.png)
 
 ## Adding schemes
 
