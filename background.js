@@ -1,11 +1,7 @@
-chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set({neevaScheme: 'gruvbox'});
-});
-
 var currentScheme = null;
+var tabs = [];
 
 function applyScheme({neevaScheme, tabId}) {
-  console.log(`Applying neeva scheme: ${neevaScheme} to tab ${tabId}`);
   if (currentScheme) chrome.scripting.removeCSS(currentScheme);
   if (!neevaScheme || neevaScheme === 'default') {
     return;
@@ -21,10 +17,19 @@ function applyScheme({neevaScheme, tabId}) {
   chrome.scripting.insertCSS(currentScheme);
 }
 
+chrome.storage.onChanged.addListener((changes, area) => {
+  if (area !== 'sync') return;
+  if (!changes.neevaScheme?.newValue) return;
+  for (const tabId of tabs) {
+    applyScheme({neevaScheme: changes.neevaScheme.newValue, tabId});
+  }
+});
+
 chrome.webNavigation.onCompleted.addListener(function(details) {
-  chrome.storage.sync.get(
-      ['neevaScheme'],
-      ({neevaScheme}) => applyScheme({neevaScheme, tabId: details.tabId}));
+  chrome.storage.sync.get(['neevaScheme'], ({neevaScheme}) => {
+    applyScheme({neevaScheme, tabId: details.tabId});
+    tabs.push(details.tabId);
+  });
 }, {
   url: [{hostContains: 'neeva.com'}],
 });
