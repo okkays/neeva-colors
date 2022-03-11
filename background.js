@@ -25,7 +25,7 @@ chrome.storage.onChanged.addListener((changes, area) => {
   }
 });
 
-chrome.webNavigation.onCompleted.addListener(function(details) {
+chrome.webNavigation.onCommitted.addListener(function(details) {
   chrome.storage.sync.get(['neevaScheme'], ({neevaScheme}) => {
     applyScheme({neevaScheme, tabId: details.tabId});
     tabs.push(details.tabId);
