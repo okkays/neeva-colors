@@ -6,7 +6,7 @@
 
 Color scheme selection chrome extension for neeva.com.
 
-Currently only has gruvbox as an option - pull requests welcome!
+Currently only has a few options - pull requests welcome!
 
 ## Examples
 
