@@ -4,21 +4,24 @@ const SCHEME_TITLES = {
   'solarish': 'Solarish',
 };
 
+const WRAPPER_ID = 'neeva-colorschemes-ext-chooser-wrapper';
+
 function insertSchemeSetting({neevaScheme}) {
+  if (document.getElementById(WRAPPER_ID)) return;
   addSettingStyles();
-  waitForPreferences(preferencesDiv => {
+  waitFor(findPreferences, preferencesDiv => {
     preferencesDiv.lastChild.appendChild(buildDropdown({neevaScheme}));
   });
 }
 
-function waitForPreferences(callback) {
+function waitFor(predicate, callback) {
   setTimeout(() => {
-    const preferencesDiv = findPreferences();
-    if (!preferencesDiv) {
-      waitForPreferences(callback);
+    const result = predicate();
+    if (!result) {
+      waitFor(predicate, callback);
       return;
     }
-    callback(preferencesDiv);
+    callback(result);
   }, 250);
 }
 
@@ -34,7 +37,7 @@ function findPreferences() {
 function buildDropdown({neevaScheme}) {
   const dropdown = document.createElement('div');
   const select = document.createElement('select');
-  dropdown.setAttribute('id', 'neeva-colorschemes-ext-chooser-wrapper')
+  dropdown.setAttribute('id', WRAPPER_ID)
 
   const options = Object.entries(SCHEME_TITLES).map(([key, title]) => {
     const selected = key === neevaScheme ? 'selected' : '';
@@ -60,11 +63,11 @@ function buildDropdown({neevaScheme}) {
 function addSettingStyles() {
   const style = document.createElement('style');
   style.innerText = `
-    #neeva-colorschemes-ext-chooser-wrapper {
+    #${WRAPPER_ID} {
       margin-top: 35px;
     }
 
-    #neeva-colorschemes-ext-chooser-wrapper select {
+    #${WRAPPER_ID} select {
       float: right;
       padding: 5px;
       margin-top: -8px;
@@ -73,4 +76,27 @@ function addSettingStyles() {
   document.head.appendChild(style);
 }
 
-chrome.storage.sync.get(['neevaScheme'], insertSchemeSetting);
+function insertIfOnPage() {
+  if (!window.location.href.includes('neeva.com/settings')) return;
+  insertRegardless();
+}
+
+function insertRegardless() {
+  chrome.storage.sync.get(['neevaScheme'], insertSchemeSetting);
+}
+
+function findSettings() {
+  return [...document.getElementsByTagName('div')].find(div => {
+    return (
+        div.className.includes('menuItem') &&
+        div.textContent.includes('Settings'));
+  });
+}
+
+window.addEventListener('popstate', insertIfOnPage);
+window.addEventListener('load', insertIfOnPage);
+window.addEventListener('load', () => {
+  waitFor(findSettings, settingsButton => {
+    settingsButton.addEventListener('click', insertRegardless);
+  });
+});

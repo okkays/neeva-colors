@@ -5,7 +5,7 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["https://neeva.com/settings"],
+      "matches": ["https://neeva.com/*"],
       "js": ["insertSetting.js"]
     }
   ],
