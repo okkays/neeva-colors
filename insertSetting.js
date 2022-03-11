@@ -1,6 +1,7 @@
 const SCHEME_TITLES = {
   'default': 'Default',
   'gruvbox': 'Gruvbox',
+  'solarish': 'Solarish',
 };
 
 function insertSchemeSetting({neevaScheme}) {

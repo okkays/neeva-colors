@@ -1,0 +1,71 @@
+:root,
+[data-theme="light"] {
+  --neeva-colors-ext-bg0: #fbf1c7;
+  --neeva-colors-ext-bg0-hard: #f9f5d7;
+  --neeva-colors-ext-bg0-soft: #f2e5bc;
+  --neeva-colors-ext-bg1: #ebdbb2;
+  --neeva-colors-ext-bg2: #d5c4a1;
+  --neeva-colors-ext-bg3: #bdae93;
+  --neeva-colors-ext-bg4: #a89984;
+
+  --neeva-colors-ext-fg0: #282828;
+  --neeva-colors-ext-fg1: #3c3836;
+  --neeva-colors-ext-fg2: #504945;
+  --neeva-colors-ext-fg3: #665c54;
+  --neeva-colors-ext-fg4: #7c6f64;
+
+  --neeva-colors-ext-dark-red: #cc241d;
+  --neeva-colors-ext-dark-green: #98971a;
+  --neeva-colors-ext-dark-yellow: #d79921;
+  --neeva-colors-ext-dark-blue: #458588;
+  --neeva-colors-ext-dark-purple: #b16286;
+  --neeva-colors-ext-dark-aqua: #689d6a;
+  --neeva-colors-ext-dark-orange: #d65d0e;
+  --neeva-colors-ext-dark-gray: #928374;
+
+  --neeva-colors-ext-light-red: #9d0006;
+  --neeva-colors-ext-light-green: #79740e;
+  --neeva-colors-ext-light-yellow: #b57614;
+  --neeva-colors-ext-light-blue: #076678;
+  --neeva-colors-ext-light-purple: #8f3f71;
+  --neeva-colors-ext-light-aqua: #427b58;
+  --neeva-colors-ext-light-orange: #af3a03;
+  --neeva-colors-ext-light-gray: #7c6f64;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --neeva-colors-ext-bg0: #002b36;
+  --neeva-colors-ext-bg0-hard: #073642;
+  --neeva-colors-ext-bg0-soft: #32302f;
+  --neeva-colors-ext-bg1: #3c3836;
+  --neeva-colors-ext-bg2: #504945;
+  --neeva-colors-ext-bg3: #665c54;
+  --neeva-colors-ext-bg4: #7c6f64;
+
+  --neeva-colors-ext-fg0: #fbf1c7;
+  --neeva-colors-ext-fg1: #ebdbb2;
+  --neeva-colors-ext-fg2: #d5c4a1;
+  --neeva-colors-ext-fg3: #bdae93;
+  --neeva-colors-ext-fg4: #a89984;
+
+  --neeva-colors-ext-dark-red: #cc241d;
+  --neeva-colors-ext-dark-green: #98971a;
+  --neeva-colors-ext-dark-yellow: #d79921;
+  --neeva-colors-ext-dark-blue: #458588;
+  --neeva-colors-ext-dark-purple: #b16286;
+  --neeva-colors-ext-dark-aqua: #689d6a;
+  --neeva-colors-ext-dark-orange: #d65d0e;
+  --neeva-colors-ext-dark-gray: #657b83;
+
+  --neeva-colors-ext-light-red: #dc322f;
+  --neeva-colors-ext-light-green: #859900;
+  --neeva-colors-ext-light-yellow: #b58900;
+  --neeva-colors-ext-light-blue: #268bd2;
+  --neeva-colors-ext-light-purple: #d33682;
+  --neeva-colors-ext-light-aqua: #2aa198;
+  --neeva-colors-ext-light-orange: #cb4b16;
+  --neeva-colors-ext-light-gray: #93a1a1;
+
+  color-scheme: dark;
+}
