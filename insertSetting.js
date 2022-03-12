@@ -71,6 +71,7 @@ function addSettingStyles() {
       float: right;
       padding: 5px;
       margin-top: -8px;
+      border-radius: 30px;
     }
   `;
   document.head.appendChild(style);
