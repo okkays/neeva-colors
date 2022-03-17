@@ -1,5 +1,7 @@
 # Neeva Colors
 
+Listing on the [Chrome Web Store](https://chrome.google.com/webstore/detail/neeva-colors/mkgkhfoolhnahloiepbaojmkkkmdcgmn?hl=en&authuser=0)
+
 ## What is this?
 
 (I'm not associated with the Neeva team.)
