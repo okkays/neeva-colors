@@ -1,16 +1,16 @@
 :root,
 [data-theme="light"] {
-  --neeva-colors-ext-bg0: #fbf1c7;
-  --neeva-colors-ext-bg0-hard: #f9f5d7;
-  --neeva-colors-ext-bg0-soft: #f2e5bc;
+  --neeva-colors-ext-bg0: #fdf6e3; /* card backgroupnd */
+  --neeva-colors-ext-bg0-hard: #eee8d5; /* main bground */
+  --neeva-colors-ext-bg0-soft: #eee8d5;
   --neeva-colors-ext-bg1: #ebdbb2;
   --neeva-colors-ext-bg2: #d5c4a1;
   --neeva-colors-ext-bg3: #bdae93;
   --neeva-colors-ext-bg4: #a89984;
 
-  --neeva-colors-ext-fg0: #282828;
-  --neeva-colors-ext-fg1: #3c3836;
-  --neeva-colors-ext-fg2: #504945;
+  --neeva-colors-ext-fg0: #859900;
+  --neeva-colors-ext-fg1: #d33682; /* font 1 */
+  --neeva-colors-ext-fg2: #657b83;
   --neeva-colors-ext-fg3: #665c54;
   --neeva-colors-ext-fg4: #7c6f64;
 
